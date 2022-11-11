@@ -56,8 +56,9 @@
                         </select></td>
                     </tr>
                     <tr>
-                        <th>Picture</th>
+                        <th>Picture<p class='card-text'><small class='text-muted'>A picture may be added later</small></p></th>
                         <td><input class='form-control' type="file" name="picture" /></td>
+                        
                     </tr>
                     <tr>
                         <td><button class='btn btn-success' type="submit">Add to recommendation list</button></td>

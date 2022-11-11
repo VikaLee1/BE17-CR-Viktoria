@@ -7,7 +7,7 @@ if($_POST){
     $author_name=$_POST['author_name'];
     $author_surname=$_POST['author_surname'];
     $type=$_POST['type'];
-    $description['description'];
+    $description=$_POST['description'];
     $picture=file_upload($_FILES['picture']);
     $uploadError='';
     $sql="INSERT into media(title, type, short_description, author_first_name, author_last_name, image) VALUES('$name', '$type', '$description', '$author_name', '$author_surname', '$picture->fileName') ";
@@ -37,7 +37,7 @@ if($_POST){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Creating</title>
     <?php require_once"../components/boot.php" ?>
 
 </head>
