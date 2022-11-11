@@ -67,10 +67,13 @@ if (mysqli_num_rows($result)>0) {
 </nav>
 <!-- end of the navbar -->
 
-<!-- <h1 class="text-center">Our recommendations to cozy up with this fall</h1> -->
+<h1 class="text-center">Recommendations to cozy up with this fall from our readers</h1>
+<h2 class="text-center">Add more or modify the list</h2>
+<div class='mb-3'>
+            <a href="create.php"><button class='btn btn-primary' type="button">Add your recommendation</button></a>
+        </div>
     
 <!-- card from bootstrap -->
-
             <tbody>
                 <?php echo $tbody; ?> 
             </tbody>
