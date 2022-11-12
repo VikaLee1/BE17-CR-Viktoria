@@ -49,7 +49,7 @@ if($_POST){
         <div class="alert alert-<?= $class; ?>" role="alert">
             <p><?= $message; ?></p>
             <p><?= $uploadError; ?></p>
-            <a href='../index.php'><button class="btn btn-primary" type='button'>Home</button></a>
+            <a href='../index.php'><button class="btn " type='button' style='background:#D0B8A8'>Home</button></a>
         </div>
     </div>
 </body>

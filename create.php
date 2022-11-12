@@ -61,8 +61,8 @@
                         
                     </tr>
                     <tr>
-                        <td><button class='btn btn-success' type="submit">Add to recommendation list</button></td>
-                        <td><a href="index.php"><button class='btn btn-warning' type="button">Home</button></a></td>
+                        <td><button class='btn text-white' type="submit" style="background:#815B5B">Add to recommendation list</button></td>
+                        <td><a href="index.php"><button class='btn text-white' type="button" style='background:#D0B8A8'>Home</button></a></td>
                     </tr>
                    
 
