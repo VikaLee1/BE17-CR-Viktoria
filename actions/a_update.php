@@ -13,10 +13,10 @@ if($_POST) {
     $uploadError='';
 
     if ($picture->error === 0) {
-        ($_POST['picture'] == "product.png" ?: unlink("../pictures/$_POST[picture]"));
-        $sql = "UPDATE media SET title='$name', author_first_name=$author_name,author_last_name=$author_surname, type=$type, short_description=$description, image='$picture->fileName' WHERE media_id = $id";
+        ($_POST['image'] == "product.png" ?: unlink("../pictures/$_POST[image]"));
+        $sql = "UPDATE media SET title='$name', author_first_name='$author_name',author_last_name='$author_surname', type='$type', short_description='$description', image='$picture->fileName' WHERE media_id = $id";
     } else {
-        $sql = "UPDATE media SET title='$name', author_first_name=$author_name,author_last_name=$author_surname, type=$type, short_description=$description WHERE media_id = $id";
+        $sql = "UPDATE media SET title='$name', author_first_name='$author_name',author_last_name='$author_surname', type='$type', short_description='$description' WHERE media_id = $id";
     }
     if (mysqli_query($conn, $sql)) {
         $class = "success";

@@ -51,7 +51,7 @@ if($_GET['id']){
     <fieldset>
         <legend class='h2'>Update the recommendation <img class='img-thumbnail rounded-circle' src='./pictures/<?= $picture ?>'
                 alt=""></legend>
-         <form action="actions/a_create.php" method= "post" enctype="multipart/form-data">
+         <form action="actions/a_update.php" method= "post" enctype="multipart/form-data">
                 <table class='table'>
                     <tr>
                         <th>Name</th>
